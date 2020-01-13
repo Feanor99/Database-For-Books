@@ -1,0 +1,12 @@
+2 Books in database
+ID: 1
+Book name: Grey wolf
+Author: Yunus
+Price: 35.5
+Number of pages: 50
+
+ID: 2
+Book name: Harry moter
+Author: Gandalf
+Price: 19.99
+Number of pages: 159
