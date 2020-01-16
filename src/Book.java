@@ -5,14 +5,24 @@ class Book{
   public Book(){}
 
   public Book(String _bookName , String _author
-  , float _price, int _numberOfPages){
-    //our precious constructor
-    bookName = _bookName;
-    author = _author;
-    price = _price;
-    numberOfPages = _numberOfPages;
-    bookID = ++ID;
+		  , float _price, int _numberOfPages){
+		    //our precious constructor
+		    bookName = _bookName;
+		    author = _author;
+		    price = _price;
+		    numberOfPages = _numberOfPages;
+		    bookID = ++ID;
   }
+  
+  public Book(int _ID,String _bookName , String _author
+		  , float _price, int _numberOfPages){
+		    //our precious constructor
+	  		bookID = _ID;
+		    bookName = _bookName;
+		    author = _author;
+		    price = _price;
+		    numberOfPages = _numberOfPages;
+		  }
 
   public String getBookName(){
     return bookName;

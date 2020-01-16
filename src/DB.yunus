@@ -1,4 +1,4 @@
-2 Books in database
+3 Books in database
 ID: 1
 Book name: Grey wolf
 Author: Yunus
@@ -10,3 +10,10 @@ Book name: Harry moter
 Author: Gandalf
 Price: 19.99
 Number of pages: 159
+
+ID: 3
+Book name: Lorf of morgs
+Author: tolki
+Price: 149.99
+Number of pages: 1159
+End of Database

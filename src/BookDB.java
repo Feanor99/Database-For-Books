@@ -4,6 +4,7 @@ class BookDatabase extends BookDatabaseFunctions {
   , float _price, int _numberOfPages){
 
       Book newBook = new Book(_bookName, _author, _price, _numberOfPages);
+      numberOfBooks_db++;
       bookDatabase.add(newBook);//new book added to our list
       printDatabase();
   }
